@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+
+.calendar-header {
+  background: #0B3157;
+  font-family: 'Montserrat';
+}
+
+.calendar-header-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calendar-header-panel-monthPrev {
+  cursor: pointer;
+  width: 59pt;
+  height: 40pt;
+  color: #48C1C2;
+  font-size: 12pt;
+  text-align: left;
+  font-weight: 700;
+  line-height: 40pt;
+  margin-left: 16pt;
+}
+
+.calendar-header-panel-monthNext {
+  cursor: pointer;
+  width: 66pt;
+  height: 40pt;
+  color: #48C1C2;
+  font-size: 12pt;
+  text-align: right;
+  font-weight: 700;
+  line-height: 40pt;
+  margin-right: 16pt;
+}
+
+.calendar-header-panel-monthArrow {
+  display: flex;
+  margin-top: 11pt;
+  margin-bottom: 10pt;
+}
+
+.calendar-header-panel-monthArrow-month {
+  cursor: default;
+  height: 19pt;
+  color: #FFFFFF;
+  font-size: 16pt;
+  text-align: center;
+  font-weight: 800;
+}
+
+.calendar-header-panel-monthArrow-arrow {
+  cursor: pointer;
+  width: 12.73pt;
+  height: 7.78pt;
+  opacity: 0.5;
+  margin-top: 2pt;
+  margin-left: 10.5pt;
+}
+
+.calendar-header-weekMonthPanel {
+  position: absolute;
+  display: flex;
+  flex-direction: row;;
+  justify-content: center;
+  width: 375pt;
+  height: 42pt;
+  background: #0B3157;
+  z-index: 1;
+}
+
+.calendar-header-weekMonthPanel-thisWeek {
+  cursor: pointer;
+  border: 1pt solid #E8E9EB;
+  width: 86pt;
+  height: 30pt;
+  opacity: 0.5;
+  color: #E8E9EB;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30pt;
+  border-radius: 30pt;
+  margin: 6pt 3pt;
+  padding-left: 9pt;
+  padding-right: 8pt;
+}
+
+.calendar-header-weekMonthPanel-thisMonth {
+  cursor: pointer;
+  border: 1pt solid #E8E9EB;
+  width: 99pt;
+  height: 30pt;
+  opacity: 0.5;
+  color: #E8E9EB;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30pt;
+  border-radius: 30pt;
+  margin: 6pt 3pt;
+  padding-left: 10pt;
+  padding-right: 9pt;
+}

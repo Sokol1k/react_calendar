@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
+.calendar-weekdays {
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #0B3157;
+  width: 375pt;
+  height: 20pt;
+}
+
+.calendar-weekdays-day {
+  width: 40pt;
+  height: 20pt;
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-size: 11pt;
+  text-align: center;
+  font-weight: 500;
+  line-height: 20pt;
+  margin: 0 5pt;
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800');
+
+.calendar-tasks {
+  font-family: 'Montserrat';
+  margin: 24pt 0;
+  display: block;
+  flex-direction: column;
+}
+
+.calendar-tasks-currentDate {
+  width: 343pt;
+  height: 40pt;
+  color: #0B3157;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: 800;
+  letter-spacing: -0.3pt;
+  line-height: 40pt;
+  margin: 0 16pt;
+}
+
+.calendar-tasks-currentTasks-image {
+  background-image: url(image.png);
+  background-size: 343pt 187pt;
+  border-radius: 2pt;
+  margin: 0 16pt;
+  margin-bottom: 4pt;
+}
+
+.calendar-tasks-currentTasks {
+  background: rgba(11, 49, 87, 0.800000011920929);
+  border-radius: 2pt;
+}
+
+.calendar-tasks-currentTasks-body {
+  width: 312pt;
+  height: 24pt;
+  color: #FFFFFF;
+  font-size: 20pt;
+  text-align: left;
+  font-weight: 700;
+  line-height: 24pt;
+  margin-left: 16pt;
+  padding-top: 24pt;
+}
+
+.calendar-tasks-currentTasks-name {
+  width: 130pt;
+  height: 24pt;
+  color: #BAD1CD;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: -0.3pt;
+  line-height: 24pt;
+  margin-left: 16pt;
+}
+
+.calendar-tasks-currentTasks-time {
+  width: 78pt;
+  height: 24pt;
+  opacity: 0.8;
+  border-radius: 2pt;
+  background: #48C1C2;
+  margin-left: 16pt;
+  margin-top: 35pt;
+  margin-bottom: 16pt;
+  color: #FFFFFF;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.32pt;
+  line-height: 24pt;
+}
+
+.calendar-tasks-currentTasks-panel {
+  width: 343pt;
+  height: 40pt;
+  opacity: 0.8;
+  border-radius: 0 0 2pt 2pt;
+  background: #48C1C2;
+  display: flex;
+}
+
+.calendar-tasks-currentTasks-panel-firstArrow {
+  width: 8pt;
+  height: 13pt;
+  margin-top: 12pt;
+  margin-left: 20pt;
+}
+
+.calendar-tasks-currentDate-panel-text {
+  width: 53pt;
+  height: 18pt;
+  opacity: 0.6;
+  color: #FFFFFF;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: 700;
+  line-height: 18pt;
+  margin-top: 10pt;
+  margin-left: 24pt;
+}
+
+.calendar-tasks-currentDate-panel-secondArrow {
+  width: 11.31pt;
+  height: 5.66pt;
+  opacity: 0.6;
+  margin-left: 212.34pt;
+  margin-top: 13pt;
+}
+
+.calendar-tasks-OtherDate {
+  margin-top: 16pt;
+  margin-left: 16pt;
+  width: 343pt;
+  height: 30pt;
+  opacity: 0.3;
+  color: #0B3157;
+  font-size: 12pt;
+  text-align: left;
+  font-weight: 800;
+  line-height: 30pt;
+}
+
+.calendar-tasks-otherTasks {
+  width: 359pt;
+  height: 60pt;
+  border-radius: 2pt;
+  background: #45B4B7;
+  margin-left: 8pt;
+  margin-bottom: 4pt;
+}
+
+.calendar-tasks-otherTasks-head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12pt;
+}
+
+.calendar-tasks-otherTasks-head-name {
+  width: 260pt;
+  height: 16pt;
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: -0.3pt;
+  line-height: 16pt;
+  margin-left: 16pt;
+}
+
+.calendar-tasks-otherTasks-head-time {
+  width: 171pt;
+  height: 16pt;
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-size: 14pt;
+  text-align: right;
+  font-weight: 500;
+  letter-spacing: -0.3pt;
+  line-height: 16pt;
+  margin-right: 16pt;
+}
+
+.calendar-tasks-otherTasks-body {
+  width: 260pt;
+  height: 20pt;
+  color: #FFFFFF;
+  font-size: 16pt;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: -0.3pt;
+  line-height: 20pt;
+  margin-left: 16pt;
+}

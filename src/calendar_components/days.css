@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.calendar-days {
+  font-family: 'Montserrat';
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4pt;
+  margin-left: 17.5pt;
+}
+
+.calendar-days-current, .calendar-days-day {
+  display: block;
+  width: 40pt;
+  height: 40pt;
+  color: #0B3157;
+  font-size: 16pt;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: -0.28pt;
+  line-height: 40pt;
+  margin-top: 4pt;
+  margin-right: 10pt;
+}
+
+.calendar-days-weekend {
+  color: red;
+}
+
+.calendar-days-current {
+  background: #0B3157;
+  color: #FFFFFF;
+  border-radius: 4pt;
+}
+
+.calendar-days-point {
+  position: absolute;
+  margin-top: -14pt;
+  margin-left: 17pt;
+}
+
+.calendar-days-events {
+  position: absolute;
+  margin-top: -31pt;
+  margin-left: 8pt;
+}
